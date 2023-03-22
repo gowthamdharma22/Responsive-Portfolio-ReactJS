@@ -1,0 +1,113 @@
+.section_title{
+    margin-bottom: -0.5rem;
+}
+.work{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.work_container{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    gap: 3rem;
+    justify-content: center;
+}
+.work_filters{
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+.work_item{
+    color: var(--text-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.work_item:hover{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+.work_card{
+    background-color: var(--bg-color);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 1.25rem;
+    border-radius: 1rem;
+}
+.work_img{
+    max-width: 259px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+}
+.work_title{
+    text-align: left;
+}
+.work_link{
+    color: var(--text-color);
+    cursor: pointer;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+.work_icon{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    margin-left: 5px;
+    margin-top: 2px;
+    transition: 0.3s;
+}
+.work_link:hover .work_icon{
+    transform: translateX(0.25rem);
+}
+.active_workwork_item{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+@media screen and (max-width:992px){
+    .work_container{
+        grid-template-columns: repeat(2,max-content);
+        gap:1.25rem;
+    }
+    .work_card{
+        padding: 1rem;
+    }
+    .work_img{
+        margin-bottom: 0.75rem;
+    }
+}
+@media screen and (max-width:768px){
+    .work_container{
+        grid-template-columns: max-content;
+    }
+}
+@media screen and (max-width:576px){
+    .work{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work_container{
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:396px){
+    .work{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

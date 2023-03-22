@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Redressed&display=swap');
+.footer{
+    background-color: var(--bg-color);
+    border-top: 1px  #CCC solid;
+    box-shadow: inset 0px 11px 8px -10px #CCC; 
+}
+.footer_cont{
+    padding: 2rem 0 6rem;
+    margin-left: -35px;
+}
+.footer_l{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer_l:hover{
+    opacity: 0.7;
+}
+.footer_tit{
+    font-family: 'Redressed', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.footer_lt{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin-bottom: 8px;
+    column-gap: 1.5rem;
+}
+.footer_soci{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    font-size: 2rem;
+}
+.footer_soci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: .2rem solid var(--text-color);
+    border-radius: 50%;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+.footer_soci a:hover{
+    color: var(--bg-color);
+    background-color: var(--text-color);
+}
+.footer_copy{
+    display: block;
+    margin-top: 4rem;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+}
+@media screen and (max-width:596px){
+    .footer{
+        width: 110%;
+    }
+    .footer_cont{
+        margin-left: -35px;
+    }
+    .footer_tit{
+        font-size: 3rem;
+        margin-bottom: 8px;
+    }
+    .footer_l{
+        font-size: 15px;
+    }
+    .footer_soci a{
+        margin-top: 8px;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.8rem;
+    }
+    .footer_copy{
+        font-size: 14px;
+    }
+
+}
