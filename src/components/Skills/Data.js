@@ -2,12 +2,12 @@ const Data ={
     FE: [
       {
         id: 1,
-        t: "HTML",
+        t: "HTML & CSS",
         tl: "Intermediate",
       },
       {
         id: 2,
-        t: "CSS",
+        t: "React JS",
         tl: "Intermediate",
       },
       {
@@ -17,8 +17,13 @@ const Data ={
       },
       {
         id: 3,
-        t: "React JS",
-        tl: "Intermediate",
+        t: "Express JS",
+        tl: "Basic",
+      },
+      {
+        id: 4,
+        t: "MySQL",
+        tl: "Basic",
       },
     ],
     PR: [
@@ -35,6 +40,11 @@ const Data ={
         {
           id: 3,
           t: "Python",
+          tl: "Intermediate",
+        },
+        {
+          id: 4,
+          t: "SQL",
           tl: "Intermediate",
         },
       ],

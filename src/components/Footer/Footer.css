@@ -5,7 +5,7 @@
     box-shadow: inset 0px 11px 8px -10px #CCC; 
 }
 .footer_cont{
-    padding: 2rem 0 6rem;
+    padding: 2rem 0 2rem;
     margin-left: -35px;
 }
 .footer_l{
@@ -21,6 +21,8 @@
     font-size: 3.5rem;
     text-align: center;
     margin-bottom: 8px;
+    -webkit-text-stroke: 1px #282828;
+    text-shadow: 0px 4px 4px #282828;
 }
 .footer_lt{
     justify-content: center;
@@ -53,7 +55,7 @@
 }
 .footer_copy{
     display: block;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
